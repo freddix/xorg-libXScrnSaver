@@ -1,7 +1,7 @@
 Summary:	XScrnSaver library
 Name:		xorg-libXScrnSaver
 Version:	1.2.2
-Release:	2
+Release:	3
 License:	MIT
 Group:		X11/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/lib/libXScrnSaver-%{version}.tar.bz2
@@ -66,7 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libXss.so
-%{_libdir}/libXss.la
 %{_includedir}/X11/extensions/scrnsaver.h
 %{_pkgconfigdir}/xscrnsaver.pc
 %{_mandir}/man3/*.3x*
